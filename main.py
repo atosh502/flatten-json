@@ -37,7 +37,7 @@ def flatten(obj):
   return result
 
 def main():
-  with open('./sample.json') as f:
+  with open('sample.json') as f:
     data = json.load(f)
     result = flatten(data)
     print(result)
